@@ -15,7 +15,7 @@ function State:OnCtor()
 end
 
 function State:ResetState()
-    
+
 end
 
 function State:EnterState(prevState)
@@ -23,6 +23,10 @@ function State:EnterState(prevState)
 end
 
 function State:LeaveState(nextState)
+
+end
+
+function State:UpdateState()
 
 end
 
